@@ -14,3 +14,12 @@ while (i <= 5) {
 console.log('7');
 console.log(5, 4, 3, 2, 1);
 console.log('8');
+function getMarkInfo(condition) {
+    if (condition === 10) {
+        console.log('У Вас максимальный балл');
+    } else {
+        console.log('У Вас средний бал');
+    }
+}
+getMarkInfo(10)
+getMarkInfo(1)
