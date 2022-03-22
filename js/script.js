@@ -75,7 +75,7 @@ console.log(result);
 
 console.log('---#12');
 function countNumber(number) {
-    let sum = 0
+    let sum = 0;
     for (let i = 1; i <= number; i++) {
       sum += i;
     }
