@@ -61,3 +61,26 @@ getDayInfo(4)
 getDayInfo(5)
 getDayInfo(6)
 getDayInfo(7)
+
+console.log('---#10');
+let arr = ['a', 'b', 'c'];
+arr.push('1', '2', '3');
+console.log(arr);
+
+console.log('---#11');
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let result = arr1.concat(arr2);
+console.log(result);
+
+console.log('---#12');
+function countNumber(number) {
+    let sum = 0
+    for (let i = 1; i <= number; i++) {
+      sum += i;
+    }
+  
+    console.log(sum);
+  }
+  countNumber(3)
+  countNumber(5)
